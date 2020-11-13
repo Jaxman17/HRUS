@@ -16,7 +16,7 @@ function CartProduct({ id, image, title, price }) {
       <div className="cartProduct-info">
         <p className="cartProduct-title">{title}</p>
         <p className="cartProduct-price">
-          <small>¥</small>
+          <small>$</small>
           <strong>{price}</strong>
         </p>
       </div>

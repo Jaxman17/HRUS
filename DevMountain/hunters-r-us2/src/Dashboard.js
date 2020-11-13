@@ -20,13 +20,13 @@ function Dashboard() {
           <Product
             id='687'
             title="Rathalos Shell"
-            price={10000}
+            price={100}
             image="https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/rathalos_shell-mhw-wiki-guide.png"
           />
           <Product 
           id='165'
           title="Rathalos Plate"
-          price={25000}
+          price={2500}
           image="https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/rathalos_plate-mhw-wiki-guide.png"/>
           {/* Product */}
         </div>
@@ -35,17 +35,17 @@ function Dashboard() {
           <Product
           id='789'
           title="Rathian Shell"
-          price={10000}
+          price={100}
           image="https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/rathian_shell-mhw-wiki-guide.png" />
           <Product
           id="115"
           title="Rathian Plate"
-          price={23000}
+          price={230}
           image="https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/rathian_plate-mhw-wiki-guide.png" />
           <Product
           id="709"
           title="Rathian Tailspike"
-          price={28000}
+          price={2800}
           image="https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/rathian_spike_plus-mhw-wiki-guide.png" />
           {/* Product */}
           {/* Product */}
@@ -55,12 +55,12 @@ function Dashboard() {
           <Product
           id="666"
           title="Diablos Twistedhorn"
-          price={45000}
+          price={450}
           image="https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/twisted-bravehorn-mhw-wiki-guide.png" />
           <Product
           id="321"
           title="Diablos Marrow"
-          price={35000}
+          price={3500}
           image="https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/diablos_marrow-mhw-wiki-guide.png" />
         </div>
       </div>

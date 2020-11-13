@@ -5,14 +5,14 @@ import Subtotal from './Subtotal'
 import { useStateValue } from './StateProvider';
 
 function Checkout() {
-    const [{ cart }, dispatch] = useStateValue();
+    const [{ cart, user }, dispatch] = useStateValue();
+
     return (
         <div className="checkout">
             <div className="checkout-left">
-                <img className="checkout-ad" src="https://lh3.googleusercontent.com/proxy/nEAb9zugrMb5I-uXqo7pPyBBThMM17xN4qdSnfKs3I9IbWvbu8gbdInEb7ittke0Kw5bxhK5Zy3J4zhO1zejvGItZuakGxrSjh_uuZI7sHk-56bosryR_cVTkUxYp5gsNrE"></img>
-
             </div>
             <div>
+                <h3>Hello! {user?.email}</h3>
                 <h2 className="checkout-title">Your Shopping Cart</h2>
 
                 {cart.map(item => (
